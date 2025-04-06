@@ -1,8 +1,12 @@
 # app.py
 from flask import Flask
+from dotenv import load_dotenv
 import pymysql
-
+import os
 app = Flask(__name__)
+
+load_dotenv()
+
 
 @app.route("/")
 def hello():
@@ -12,10 +16,10 @@ def hello():
 def db_test():
     try:
         conn = pymysql.connect(
-            host="capstone-db.c3km22w8k6j9.ap-northeast-2.rds.amazonaws.com",
-            user="admin",
-            password="capstone125",
-            db="MariaDB",
+            host=os.getenv("DB_HOST"),
+            user=os.getenv("DB_USER"),
+            password=os.getenv("DB_PASSWORD"),
+            db=os.getenv("DB_NAME"),
             charset="utf8"
         )
         with conn.cursor() as cursor:
