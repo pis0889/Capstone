@@ -22,7 +22,7 @@ app.secret_key = os.getenv("SECRET_KEY")
 
 GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID")
 GOOGLE_CLIENT_SECRET = os.getenv("GOOGLE_CLIENT_SECRET")
-REDIRECT_URI = "https://43ef-3-38-210-32.ngrok-free.app/callback"
+REDIRECT_URI = ""
 
 
 AUTH_BASE_URL = 'https://accounts.google.com/o/oauth2/auth'
