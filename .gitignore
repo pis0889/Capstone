@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# 가상환경
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# 환경 변수
+.env
+.env.*
+
+# 데이터베이스/캐시
+*.sqlite3
+*.db
+*.log
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Jupyter Notebook 체크포인트 (혹시 쓰면)
+.ipynb_checkpoints/
+
+# 테스트
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# 기타
+*.bak
+.cache/
+.local/
+

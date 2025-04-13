@@ -12,9 +12,9 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1744528731,,"wq"
+|2,0,1744530631,,"wq"
 :q
-|2,0,1744528704,,"q"
+|2,0,1744530568,,"q"
 :w
 |2,0,1744525363,,"w"
 :ㅈ
@@ -38,36 +38,66 @@
 |3,1,36,0,1,0,1743842838,"~"
 
 # File marks:
-'0  45  6  ~/flask_app/backend/backend/.gitignore
-|4,48,45,6,1744528731,"~/flask_app/backend/backend/.gitignore"
-'1  1  0  ~/flask_app/backend/.gitignore
-|4,49,1,0,1744528704,"~/flask_app/backend/.gitignore"
+'0  46  0  ~/.gitignore
+|4,48,46,0,1744530631,"~/.gitignore"
+'1  1  0  ~/.gitignore
+|4,49,1,0,1744530568,"~/.gitignore"
 '2  1  0  ~/.gitignore
-|4,50,1,0,1744528688,"~/.gitignore"
-'3  2  0  ~/flask_app/backend/.git/MERGE_MSG
-|4,51,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
-'4  28  0  ~/flask_app/backend/.gitignore
-|4,52,28,0,1744527070,"~/flask_app/backend/.gitignore"
-'5  28  0  ~/flask_app/backend/.gitignore
-|4,53,28,0,1744527070,"~/flask_app/backend/.gitignore"
-'6  1  0  ~/flask_app/backend/.git/.gitignore
-|4,54,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
-'7  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,55,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
-'8  4  0  ~/flask_app/backend/.gitignore
-|4,56,4,0,1744526667,"~/flask_app/backend/.gitignore"
-'9  4  0  ~/flask_app/backend/.gitignore
-|4,57,4,0,1744526667,"~/flask_app/backend/.gitignore"
+|4,50,1,0,1744530568,"~/.gitignore"
+'3  45  6  ~/flask_app/backend/backend/.gitignore
+|4,51,45,6,1744528731,"~/flask_app/backend/backend/.gitignore"
+'4  1  0  ~/flask_app/backend/.gitignore
+|4,52,1,0,1744528704,"~/flask_app/backend/.gitignore"
+'5  1  0  ~/.gitignore
+|4,53,1,0,1744528688,"~/.gitignore"
+'6  1  0  ~/.gitignore
+|4,54,1,0,1744528688,"~/.gitignore"
+'7  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,55,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+'8  28  0  ~/flask_app/backend/.gitignore
+|4,56,28,0,1744527070,"~/flask_app/backend/.gitignore"
+'9  28  0  ~/flask_app/backend/.gitignore
+|4,57,28,0,1744527070,"~/flask_app/backend/.gitignore"
 
 # Jumplist (newest first):
+-'  46  0  ~/.gitignore
+|4,39,46,0,1744530631,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1744530627,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1744530568,"~/.gitignore"
 -'  45  6  ~/flask_app/backend/backend/.gitignore
 |4,39,45,6,1744528731,"~/flask_app/backend/backend/.gitignore"
+-'  45  6  ~/flask_app/backend/backend/.gitignore
+|4,39,45,6,1744528731,"~/flask_app/backend/backend/.gitignore"
+-'  45  6  ~/flask_app/backend/backend/.gitignore
+|4,39,45,6,1744528731,"~/flask_app/backend/backend/.gitignore"
+-'  45  6  ~/flask_app/backend/backend/.gitignore
+|4,39,45,6,1744528731,"~/flask_app/backend/backend/.gitignore"
+-'  1  0  ~/flask_app/backend/backend/.gitignore
+|4,39,1,0,1744528710,"~/flask_app/backend/backend/.gitignore"
+-'  1  0  ~/flask_app/backend/backend/.gitignore
+|4,39,1,0,1744528710,"~/flask_app/backend/backend/.gitignore"
+-'  1  0  ~/flask_app/backend/backend/.gitignore
+|4,39,1,0,1744528710,"~/flask_app/backend/backend/.gitignore"
 -'  1  0  ~/flask_app/backend/backend/.gitignore
 |4,39,1,0,1744528710,"~/flask_app/backend/backend/.gitignore"
 -'  1  0  ~/flask_app/backend/.gitignore
 |4,39,1,0,1744528704,"~/flask_app/backend/.gitignore"
 -'  1  0  ~/flask_app/backend/.gitignore
 |4,39,1,0,1744528704,"~/flask_app/backend/.gitignore"
+-'  1  0  ~/flask_app/backend/.gitignore
+|4,39,1,0,1744528704,"~/flask_app/backend/.gitignore"
+-'  1  0  ~/flask_app/backend/.gitignore
+|4,39,1,0,1744528704,"~/flask_app/backend/.gitignore"
+-'  1  0  ~/flask_app/backend/.gitignore
+|4,39,1,0,1744528704,"~/flask_app/backend/.gitignore"
+-'  1  0  ~/flask_app/backend/.gitignore
+|4,39,1,0,1744528704,"~/flask_app/backend/.gitignore"
+-'  1  0  ~/flask_app/backend/.gitignore
+|4,39,1,0,1744528704,"~/flask_app/backend/.gitignore"
+-'  1  0  ~/flask_app/backend/.gitignore
+|4,39,1,0,1744528704,"~/flask_app/backend/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1744528688,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -92,6 +122,102 @@
 |4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
 -'  2  0  ~/flask_app/backend/.git/MERGE_MSG
 |4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  2  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,2,0,1744528067,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
+-'  1  0  ~/flask_app/backend/.git/MERGE_MSG
+|4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
 -'  1  0  ~/flask_app/backend/.git/MERGE_MSG
 |4,39,1,0,1744528050,"~/flask_app/backend/.git/MERGE_MSG"
 -'  1  0  ~/flask_app/backend/.git/MERGE_MSG
@@ -128,140 +254,21 @@
 |4,39,28,0,1744527070,"~/flask_app/backend/.gitignore"
 -'  28  0  ~/flask_app/backend/.gitignore
 |4,39,28,0,1744527070,"~/flask_app/backend/.gitignore"
--'  4  0  ~/flask_app/backend/.gitignore
-|4,39,4,0,1744527048,"~/flask_app/backend/.gitignore"
--'  4  0  ~/flask_app/backend/.gitignore
-|4,39,4,0,1744527048,"~/flask_app/backend/.gitignore"
--'  4  0  ~/flask_app/backend/.gitignore
-|4,39,4,0,1744527048,"~/flask_app/backend/.gitignore"
--'  4  0  ~/flask_app/backend/.gitignore
-|4,39,4,0,1744527048,"~/flask_app/backend/.gitignore"
--'  4  0  ~/flask_app/backend/.gitignore
-|4,39,4,0,1744527048,"~/flask_app/backend/.gitignore"
--'  4  0  ~/flask_app/backend/.gitignore
-|4,39,4,0,1744527048,"~/flask_app/backend/.gitignore"
--'  4  0  ~/flask_app/backend/.gitignore
-|4,39,4,0,1744527048,"~/flask_app/backend/.gitignore"
--'  4  0  ~/flask_app/backend/.gitignore
-|4,39,4,0,1744527048,"~/flask_app/backend/.gitignore"
--'  4  0  ~/flask_app/backend/.gitignore
-|4,39,4,0,1744527048,"~/flask_app/backend/.gitignore"
--'  4  0  ~/flask_app/backend/.gitignore
-|4,39,4,0,1744527048,"~/flask_app/backend/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/.gitignore
-|4,39,1,0,1744527033,"~/flask_app/backend/.git/.gitignore"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
--'  1  0  ~/flask_app/backend/.git/COMMIT_EDITMSG
-|4,39,1,0,1744526719,"~/flask_app/backend/.git/COMMIT_EDITMSG"
+-'  28  0  ~/flask_app/backend/.gitignore
+|4,39,28,0,1744527070,"~/flask_app/backend/.gitignore"
+-'  28  0  ~/flask_app/backend/.gitignore
+|4,39,28,0,1744527070,"~/flask_app/backend/.gitignore"
+-'  28  0  ~/flask_app/backend/.gitignore
+|4,39,28,0,1744527070,"~/flask_app/backend/.gitignore"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1744530630	0
+	"	46	0
+	^	46	0
+	.	45	7
+	+	45	7
 
 > ~/flask_app/backend/backend/.gitignore
 	*	1744528730	0
@@ -272,10 +279,6 @@
 
 > ~/flask_app/backend/.gitignore
 	*	1744528702	0
-	"	1	0
-
-> ~/.gitignore
-	*	1744528687	0
 	"	1	0
 
 > ~/flask_app/backend/.git/MERGE_MSG
