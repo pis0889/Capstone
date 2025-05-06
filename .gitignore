@@ -54,3 +54,4 @@ htmlcov/
 .ngrok2/
 .cache/
 .local/
+myenv/
