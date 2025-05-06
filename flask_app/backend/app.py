@@ -90,6 +90,27 @@ def naver_callback():
 
     return 'Failed to get the access token.'
 
+# 사용자 정보 DB에 삽입 함수
+def insert_user_to_db(kakao_id, nickname, profile_picture):
+    connection = get_db_connection()
+    cursor = connection.cursor()
+
+    # 사용자 정보를 DB에 삽입하는 SQL 쿼리
+    sql = """
+    INSERT INTO users (kakao_id, nickname, profile_picture, provider)
+    VALUES (%s, %s, %s, %s)
+    ON DUPLICATE KEY UPDATE
+    nickname = VALUES(nickname),
+    profile_picture = VALUES(profile_picture);
+    """
+    values = (kakao_id, nickname, profile_picture, 'kakao')
+
+    # 쿼리 실행
+    cursor.execute(sql, values)
+    connection.commit()
+    cursor.close()
+    connection.close()
+
 
 @app.route('/auth/login/kakao')
 def kakao_login():
@@ -128,6 +149,11 @@ def kakao_callback():
         user_info_response = requests.get(user_info_url, headers=user_info_headers)
         user_info = user_info_response.json()
 
+        # 카카오 ID, 닉네임, 프로필 사진 URL 가져오기
+        kakao_id = user_info['id']
+        nickname = user_info['properties']['nickname']
+        profile_picture = user_info['properties'].get('profile_image', '')
+    
         # 사용자 정보 처리 (예: 세션에 저장하거나 DB에 저장)
         session['user_info'] = user_info
 
@@ -135,6 +161,10 @@ def kakao_callback():
 
     return 'Failed to get the access token.'
 
+@app.route('/auth/logout')
+def logout():
+    session.pop('user_info', None)  # 세션에서 사용자 정보 삭제
+    return redirect('/')  # 로그인 페이지로 리디렉션
 
 
 @app.route('/')
