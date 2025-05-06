@@ -3,7 +3,7 @@ attrs==20.3.0
 awscli==1.38.38
 awscrt==0.23.8
 Babel==2.9.1
-blinker==1.9.0
+blinker==1.8.2
 boto3==1.37.38
 certbot==2.6.0
 certbot-nginx==2.6.0
