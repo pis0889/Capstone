@@ -33,6 +33,14 @@ jobs:
         run: |
           pytest  # 또는 사용 중인 테스트 명령어
 
+
+      - name: Install aws-cfn-bootstrap
+        run: |
+          wget https://github.com/aws/aws-cfn-bootstrap/releases/download/v1.4.0/aws-cfn-bootstrap-1.4.0.tar.gz
+          tar -xzvf aws-cfn-bootstrap-1.4.0.tar.gz
+          cd aws-cfn-bootstrap-1.4.0
+          python setup.py install
+
       # 5. EC2 서버에 배포
       - name: Deploy to EC2
         env:
