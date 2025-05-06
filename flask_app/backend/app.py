@@ -12,7 +12,7 @@ print("SECRET_KEY:", os.getenv("SECRET_KEY"))
 app = Flask(__name__)
 
 app.config.update(
-    SECRET_KEY=os.getenv("SECRET_KEY"),  # 또는 직접 문자열도 가능: 
+    SECRET_KEY=os.getenv("SECRET_KEY"),  # 또는 직접 문자열도 가능
     SESSION_COOKIE_SAMESITE="None",      # cross-site 요청에도 쿠키 허용
     SESSION_COOKIE_SECURE=True          # HTTPS가 아닐 때도 허용 (개발 환경에서만!)
 )
