@@ -45,7 +45,6 @@ jobs:
           scp -i private_key.pem -o StrictHostKeyChecking=yes -r ./* $EC2_USER@$EC2_HOST:/home/ec2-user/flask_app/backend
           ssh -i private_key.pem -o StrictHostKeyChecking=yes $EC2_USER@$EC2_HOST << EOF
             cd /home/ec2-user/flask_app/backend
-            source venv/bin/activate
             pip install -r requirements.txt
             sudo systemctl restart gunicorn  # 서비스 이름에 맞게 수정
           EOF
